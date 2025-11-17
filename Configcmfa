@@ -32,51 +32,51 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-- name: Mode-WS
-  type: vless
-  server: support.udemy.com
-  port: 443
-  uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
-  cipher: auto
-  skip-cert-verify: true
-  udp: true
-  tls: true
-  servername: 04-sni.biz.id
-  network: ws
-  ws-opts:
-    path: "/vless-ws"
-    headers:
-      Host: 04-sni.biz.id
-- name: Mode-SNI
-  type: vless
-  server: support.udemy.com
-  port: 443
-  uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
-  cipher: auto
-  skip-cert-verify: true
-  udp: true
-  tls: true
-  servername: 04-sni.biz.id
-  network: ws
-  ws-opts:
-    path: "/vless-ws"
-    headers:
-      Host: 04-sni.biz.id
-- name: Mode-Wildcard
-  server: support.udemy.com
-  port: 443
-  type: vless
-  uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
-  cipher: auto
-  skip-cert-verify: true
-  udp: true
-  tls: true
-  servername: support.udemy.com.01.wcg.web.id
-  network: ws
-  ws-opts:
-    path: "/vless-ws"
-    headers:
-      Host: support.udemy.com.01.wcg.web.id
+ - name: Mode-WS
+   type: vless
+   server: support.udemy.com
+   port: 443
+   uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
+   cipher: auto
+   skip-cert-verify: true
+   udp: true
+   tls: true
+   servername: 04-sni.biz.id
+   network: ws
+   ws-opts:
+     path: "/vless-ws"
+     headers:
+       Host: 04-sni.biz.id
+ - name: Mode-SNI
+   type: vless
+   server: support.udemy.com
+   port: 443
+   uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
+   cipher: auto
+   skip-cert-verify: true
+   udp: true
+   tls: true
+   servername: 04-sni.biz.id
+   network: ws
+   ws-opts:
+     path: "/vless-ws"
+     headers:
+       Host: 04-sni.biz.id
+ - name: Mode-Wildcard
+   server: support.udemy.com
+   port: 443
+   type: vless
+   uuid: 4ea26a57-6287-4f24-a68d-f5a9462af999
+   cipher: auto
+   skip-cert-verify: true
+   udp: true
+   tls: true
+   servername: support.udemy.com.01.wcg.web.id
+   network: ws
+   ws-opts:
+     path: "/vless-ws"
+     headers:
+       Host: support.udemy.com.01.wcg.web.id
 
 
 
