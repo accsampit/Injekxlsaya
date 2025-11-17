@@ -25,7 +25,7 @@ proxies:
 proxy-providers:
   AC-INDONESIA:
     type: file
-    path: "https://raw.githubusercontent.com/accsampit/Injekxlsaya/refs/heads/main/ACC_Config_ID.yaml"
+    path: "./refs/heads/main/ACC_Config_ID.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
